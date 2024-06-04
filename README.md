@@ -9,7 +9,7 @@ In this repo you will find a guide on how to operate with 6DoF Robot arms from t
 
 The repo is divided in 11 classes:
 
-1. [<u>**Installation**</u>](..\1-Installation.md): Step by step guide for <u>full and/or remote installation</u> (RPi)
+1. [<u>**Installation**</u>](1-Installation.md): Step by step guide for <u>full and/or remote installation</u> (RPi)
 2. [<u>**Setup**</u>](\2-SetUp.md): Step by step guide on how to prepare your working station. <u>Hardware and first software comands</u>.
 3. [<u>**General**</u>](\3-General.md): Step by step guide on <u>important knowledge</u> before diving in to more complex comands.
 4. [<u>**RViz**</u>](\4-RViz.md): Step by step guide on <u>best use of RViz</u>.
