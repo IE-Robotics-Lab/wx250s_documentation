@@ -5,9 +5,8 @@
 
 <details>
 <summary><strong>Moveit comands</strong></summary>
-
-  <details>
-  <summary><strong>C++</strong></summary>
+    <details>
+    <summary><strong>C++</strong></summary>
   Simulate it first:
 
   `roslaunch interbotix_xsarm_moveit_interface xsarm_moveit_interface.launch robot_model:=wx250s use_fake:=true dof:=6 use_cpp_interface:=true`
@@ -26,7 +25,7 @@
 
     Set end-effector cordinates&orientation → es:
     <p align="center">
-    <img src="Images/movelit.png" alt="computer_setup" width="100">
+    <img src="Images/movelit.png" alt="computer_setup" width="200">
     </p>
 
   - Plan Position:
@@ -44,13 +43,10 @@
   - Reset:
 
     Go back to 0
-
-
-
   </details>
 
-  <details>
-  <summary>Python</summary>
+    <details>
+    <summary>Python</summary>
 
 `roslaunch interbotix_xsarm_moveit_interface xsarm_moveit_interface.launch robot_model:=wx250s use_fake:=true dof:=6 use_python_interface:=true`
 
@@ -58,10 +54,7 @@ Python script running! find it here: [github: interbotix_ros_toolboxes/interboti
 
 1. press enter in the terminal → start tutorial
 2. press enter to continue the demo
-
-
-
-  </details>
+    </details>
 
 
 </details>
