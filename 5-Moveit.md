@@ -5,8 +5,8 @@
 
 <details>
 <summary><strong>Moveit comands</strong></summary>
-    <details>
-    <summary><strong>C++</strong></summary>
+      <details>
+        <summary><strong>C++</strong></summary>
   Simulate it first:
 
   `roslaunch interbotix_xsarm_moveit_interface xsarm_moveit_interface.launch robot_model:=wx250s use_fake:=true dof:=6 use_cpp_interface:=true`
@@ -43,7 +43,7 @@
   - Reset:
 
     Go back to 0
-  </details>
+    </details>
 
     <details>
     <summary>Python</summary>
