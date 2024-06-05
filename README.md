@@ -22,17 +22,6 @@ The repo is divided in 11 classes:
 9. [<u>**Perception Package**</u>](9-PerceptionPackage): Step by step guide on using <u>Computer Vision package</u> to perform taks.
 10. [<u>**Gazebo**</u>](10-Gazebo): Step by step guide on <u>best use of Gazebo</u>.
 11. [<u>**Multiple Arms**</u>](11-MultipleArms): Step by step guide on <u>mooving 2 arms simultaneusly</u>.
-=======
-2. [<u>**Setup**</u>](\2-SetUp.md): Step by step guide on how to prepare your working station. <u>Hardware and first software comands</u>.
-3. [<u>**General**</u>](\3-General.md): Step by step guide on <u>important knowledge</u> before diving in to more complex comands.
-4. [<u>**RViz**</u>](\4-RViz.md): Step by step guide on <u>best use of RViz</u>.
-5. [<u>**Moveit**</u>](\5-Moveit.md): Step by step guide on <u>Python and C++ demos</u> using Moveit.
-6. [<u>**Python API**</u>](\6-PythonAPI.md): Step by step guide on <u>learning interbotics functions to code and move the robot</u>.
-7. [<u>**Record and Play Ros Bag**</u>](\7-RecordPlayBag.md): Step by step guide on moving robot manually with torque of and <u>record his moovments to then play then back</u>.
-8. [<u>**Move WX250s with Joystic**</u>](\8-UseJoystick.md): Step by step guide on <u>move robot with a joystick</u>.
-9. [<u>**Perception Package**</u>](\9-PerceptionPackage): Step by step guide on using <u>Computer Vision package</u> to perform taks.
-10. [<u>**Gazebo**</u>](\10-Gazebo): Step by step guide on <u>best use of Gazebo</u>.
-11. [<u>**Multiple Arms**</u>](\11-MultipleArms): Step by step guide on <u>mooving 2 arms simultaneusly</u>.
 
 <br>
 
