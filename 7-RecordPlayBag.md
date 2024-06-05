@@ -2,16 +2,20 @@
 
 ## Usage
 
+<span style="color:gray;">
+
 #### 1-Where?
 
 `interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet`
+
+</span>
 
 #### 2-Record Bag
 
 - Record bag, **record:=true**: `roslaunch interbotix_xsarm_puppet xsarm_puppet_single.launch robot_model:=wx250s record:=true`
 
 <p align="center">
-<img src="Images/parameters.png" alt="parameters" width="200">
+<img src="Images/parameters.png" alt="parameters" width="400">
 </p>
 
 Now you can move the robot manually and the moovments will be saved in to a ros bag (.bag file).

@@ -11,15 +11,16 @@
     - Turn on Bluetooth of computer
     - Press PS button + share untill flash on controller
 
+<span style="color:gray;">
+
 2. Package name:
 
     - **interbotix_xsarm_joy**
 
-      1. The pakage has 3 parts: joy node (driver from joystik to linux), xsarm_joy node (reade messages and interpret them) xsarm_robot (allow position-ik)
-
-      All 3 nodes are launched with [launch file](https://github.com/Interbotix/interbotix_ros_manipulators/blob/main/interbotix_ros_xsarms/examples/interbotix_xsarm_joy/launch/xsarm_joy.launch)
+      1. The pakage has 3 parts: joy node (driver from joystik to linux), xsarm_joy node (reade messages and interpret them) xsarm_robot (allow position-ik). All 3 nodes are launched with [launch file](https://github.com/Interbotix/interbotix_ros_manipulators/blob/main/interbotix_ros_xsarms/examples/interbotix_xsarm_joy/launch/xsarm_joy.launch)
 
       2. [config file](https://github.com/Interbotix/interbotix_ros_manipulators/blob/main/interbotix_ros_xsarms/examples/interbotix_xsarm_joy/config/modes.yaml)
+</span>
 
 3. Launch package:
 

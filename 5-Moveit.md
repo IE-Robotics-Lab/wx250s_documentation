@@ -50,7 +50,7 @@
 
 `roslaunch interbotix_xsarm_moveit_interface xsarm_moveit_interface.launch robot_model:=wx250s use_fake:=true dof:=6 use_python_interface:=true`
 
-Python script running! find it here: [github: interbotix_ros_toolboxes/interbotics_common_toolbox/interbotics_moveit_interface/scripts/moveit_python_interface]
+Python script running. find it here: [github: interbotix_ros_toolboxes/interbotics_common_toolbox/interbotics_moveit_interface/scripts/moveit_python_interface]
 
 1. press enter in the terminal → start tutorial
 2. press enter to continue the demo
