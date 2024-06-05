@@ -34,38 +34,38 @@ source interbotics_ws/devel/setup.bash
       - In the playground box, write _wx250s_ under **Robot Namespace** (light becae green). Now you are connected to real robot
       - Important paramenters: **use_sim** → to simulate the robot moovments. It will be usefull later, when we will code and mouve the robot to test our code before breaking the robot!!!!!!!!
 
-<details>
-  <summary>Topics</summary>
+    <details>
+      <summary>Topics</summary>
 
-`rostopic list`
+    `rostopic list`
 
-Now you can see interesting topics. Such `/wx250s/commands/joint_group` (pub to a group of joint), `/wx250s/commands/joint_single` (pub to one joint), `/wx250s/commands/joint_trajectory` (pub joint trajectory message).
+    Now you can see interesting topics. Such `/wx250s/commands/joint_group` (pub to a group of joint), `/wx250s/commands/joint_single` (pub to one joint), `/wx250s/commands/joint_trajectory` (pub joint trajectory message).
 
-- Publish to **`/wx250s/commands/joint_group`**:
+    - Publish to **`/wx250s/commands/joint_group`**:
 
-  1. Home position:`rostopic pub -1 /wx250s/comands/joint_group interbotix_ws_sdk/JointGroupComand “name: ‘arm’ cmd: [0,0,0,0,0,0]”`
-    - where `name: ‘arm’`is the arm_group (everithing eccept the gripper
-    - where `cmd: [0,0,0,0,0,0]` are joint angles (→ rect position (home))
-  2. Sleep position: `rostopic pub -1 /wx250s/comands/joint_group interbotix_ws_sdk/JointGroupComand “name: ‘arm’ cmd: [<set_of_positions>]”`
-    - to **find the `<set of positions>`** go to github → interbotix_ros_manipulators → interbotix_ros_xsarms → interbotix_ros_xsarms_control → **config → wx250s.yaml** ⇒ config file to see joint order, names, sleep_position, groups (such as `arm`), etc…
+      1. Home position:`rostopic pub -1 /wx250s/comands/joint_group interbotix_ws_sdk/JointGroupComand “name: ‘arm’ cmd: [0,0,0,0,0,0]”`
+        - where `name: ‘arm’`is the arm_group (everithing eccept the gripper
+        - where `cmd: [0,0,0,0,0,0]` are joint angles (→ rect position (home))
+      2. Sleep position: `rostopic pub -1 /wx250s/comands/joint_group interbotix_ws_sdk/JointGroupComand “name: ‘arm’ cmd: [<set_of_positions>]”`
+        - to **find the `<set of positions>`** go to github → interbotix_ros_manipulators → interbotix_ros_xsarms → interbotix_ros_xsarms_control → **config → wx250s.yaml** ⇒ config file to see joint order, names, sleep_position, groups (such as `arm`), etc…
 
-</details>
+    </details>
 
-<details>
-  <summary>Services</summary>
+    <details>
+      <summary>Services</summary>
 
-`rosservice list`
+    `rosservice list`
 
-Now you can see interesting services. Such `/wx250s/get_robot_info` (see infos about robot)and `/wx250s/torque_enable` (to enable or desable torque).
+    Now you can see interesting services. Such `/wx250s/get_robot_info` (see infos about robot)and `/wx250s/torque_enable` (to enable or desable torque).
 
-1. `rosservice call /wx250s/get_robot_info "cmd_type: 'group' name: 'arm'"`
-    - where `cmd_type: 'group'` says u want informations from a certain group of motors
-    - where `name: 'arm'` says the group of motors u want to get infos
-    ⇒ see mode, profile_type (velocity vs time), joint infos & joint limits, etc…
-2. `rosservice call /wx250s/torque_enable "cmd_type: 'group' name: 'arm' enable: false"`
-    - when `enable: false`, the robot collapse. So hold it before running the comand
-    - Usefull because you can turn off the torque, manualy move the robot in the desire position and turn on torque again (`enable: true`). At this point you can `rostopic echo wx250s/joint_states` to see informations about current desired position.
-</details>
+    1. `rosservice call /wx250s/get_robot_info "cmd_type: 'group' name: 'arm'"`
+        - where `cmd_type: 'group'` says u want informations from a certain group of motors
+        - where `name: 'arm'` says the group of motors u want to get infos
+        ⇒ see mode, profile_type (velocity vs time), joint infos & joint limits, etc…
+    2. `rosservice call /wx250s/torque_enable "cmd_type: 'group' name: 'arm' enable: false"`
+        - when `enable: false`, the robot collapse. So hold it before running the comand
+        - Usefull because you can turn off the torque, manualy move the robot in the desire position and turn on torque again (`enable: true`). At this point you can `rostopic echo wx250s/joint_states` to see informations about current desired position.
+    </details>
 
 </details>
 
