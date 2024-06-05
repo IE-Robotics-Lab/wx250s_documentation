@@ -44,7 +44,7 @@ Go to `cd interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/ex
 
 >Note: u can have script where ever u want.. noo need to be in that directory
 
-As we saw in [General.md](/General.md), run `roslaunch interbotix_xsarm_control xsarm_control.launch robot_model:=wx250s` to connect with real robot <span style="color:gray;"> or `roslaunch interbotix_xsarm_control xsarm_control.launch robot_model:=wx250s use_sim:=true` to simulate it. </span>
+As we saw in [General.md](3-General.md), run `roslaunch interbotix_xsarm_control xsarm_control.launch robot_model:=wx250s` to connect with real robot <span style="color:gray;"> or `roslaunch interbotix_xsarm_control xsarm_control.launch robot_model:=wx250s use_sim:=true` to simulate it. </span>
 
   <details>
     <summary>bartender.py</summary>
@@ -122,6 +122,8 @@ if __name__=='__main__':
 
   </details>
 
+
+> For the other demos it is the same... check them out
 </details>
 
 
