@@ -4,7 +4,7 @@
 
 
 <details>
-  <summary><strong>Hardwrae set up procedure</strong></summary>
+  <summary><strong>RViz comands</strong></summary>
 
 
 

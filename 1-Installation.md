@@ -17,7 +17,7 @@ chmod +x xsarm_amd64_install.sh
 ./xsarm_amd64_install.sh -d noetic
 ```
 
-→  end up with this [GitHub](https://github.com/Interbotix)
+→  end up with this [Repo](https://github.com/Interbotix)
 
 </details>
 

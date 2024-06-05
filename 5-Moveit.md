@@ -4,7 +4,7 @@
 
 
 <details>
-  <summary><strong>Hardwrae set up procedure</strong></summary>
+  <summary><strong>Moveit comands</strong></summary>
 
 
 
