@@ -1,5 +1,7 @@
 # wx250s_documentation
-Instructions for robot arm
+Instructions for trossen robotics robot arm
+
+> year 2024
 
 ## Intro
 
