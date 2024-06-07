@@ -22,6 +22,7 @@ The repo is divided in 11 classes:
 9. [<u>**Perception Package**</u>](9-PerceptionPackage): Step by step guide on using <u>Computer Vision package</u> to perform taks.
 10. [<u>**Gazebo**</u>](10-Gazebo): Step by step guide on <u>best use of Gazebo</u>.
 11. [<u>**Multiple Arms**</u>](11-MultipleArms): Step by step guide on <u>mooving 2 arms simultaneusly</u>.
+12. [<u>**Errors**</u>](12-Errors): Step by step guide on <u>usual errors to avoid and fix problems</u>.
 
 <br>
 
