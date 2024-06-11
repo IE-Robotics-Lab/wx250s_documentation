@@ -17,6 +17,26 @@ chmod +x xsarm_amd64_install.sh
 ./xsarm_amd64_install.sh -d noetic
 ```
 
+Before installation, it will ask 2 questions. The first answare 'y' (yes) and the second 'n' (no). The first one is about perception package, that we want, and will allow aus to use Computer Vision. The second is about MATPLOT, that we do not have.
+
+```
+install the Interbotix Perception packages? This will include the RealSense and AprilTag packages as dependencies.
+
+y
+Install the MATLAB-ROS API?
+n
+INSTALLATION SUMMARY:
+ROS Distribution:           ROS 1 noetic
+Install Perception Modules: true
+Install MATLAB Modules:     false
+Installation path:          /home/gringo/interbotix_ws
+
+
+Is this correct?
+
+y
+```
+
 →  end up with this [Repo](https://github.com/Interbotix)
 
 → Correct installation checks:

@@ -11,7 +11,17 @@
 
 1. If during installation, yo get error because a package didn't compile:
     - download it manually:
-        - `apt-cache search <package_name>` → `sudo apt install <the ros-noetic-.. package>` → `rm -rf ~/interbotix_ws/`
+        - `apt-cache search <package_name>` → `sudo apt install <the ros-noetic-.. package>` → `rm -rf ~/interbotix_ws/` → run the installation again.
+    - Usually the pakages that need manual installation to avoid compiling errors are:
+        - sudo apt install ros-noetic-dynamixel-workbench-controllers
+        - sudo apt install ros-noetic-moveit-commander
+        - sudo apt install ros-noetic-apriltag-ros
+        - sudo apt install ros-noetic-rqt-joint-trajectory-controller
+        - sudo apt install ros-noetic-pilz-control
+        - sudo apt install ros-noetic-moveit-visual-tools
+        - sudo apt install ros-noetic-joy
+        - sudo apt install ros-noetic-realsense2-camera
+        - sudo apt install ros-noetic-effort-controllers
 
 ## Fix motor mulfctioning
 
