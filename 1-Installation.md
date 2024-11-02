@@ -8,7 +8,7 @@ Check [Official documentation](https://docs.trossenrobotics.com/interbotix_xsarm
 
   (requirements: Ubuntu Linux 18.04, **20.04**, or 22.04)
 
-Full descktop installaition:
+Full desktop installation:
 
 ```
 sudo apt install curl
